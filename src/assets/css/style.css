@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.card{
+    width: 500px;
+    padding: 30px;
+    background-color: bisque;
+    border-radius: 20px;
+    justify-content: center; 
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+
+
+.click-adicionar{
+    background-color: rgb(39, 105, 192);
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.click-adicionar:hover{
+    background-color: rgb(42, 69, 104);
+}
+
+.area-adicionar{
+    flex-direction: row;
+    gap: 10px;
+}
+
+.lista-container{
+    flex-direction: column;
+    gap: 5px;
+}
+ 
+.tarefa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+}
+
+.texto-tarefa{
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.acoes{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.botao-concluir{
+    background-color: rgb(19, 192, 62);
+    border:0;
+    height: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao-concluir:hover {
+    background-color: green;
+}
+
+.botao-excluir{
+    background-color: rgba(255, 0, 0, 0.808);
+    border: 0;
+    height: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao-excluir:hover {
+    background-color: brown;
+}
+
+.input-adicionar{
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.concluida{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
